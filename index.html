@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Rural Edu Kids</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#E57373" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Rural Edu Kids" />
+    <meta name="application-name" content="Rural Edu Kids" />
+    <meta name="description" content="Fun learning platform for primary school children" />
+  </head>
+  <body>
+        <div class="mobile-app-container">
+        <!-- Header Navigation -->
+        <header class="app-header">
+            <div class="header-container">
+                <div class="header-brand">
+                                         <h1>🌟 RuralEdu Kids</h1>
+                </div>
+                <div class="offline-indicator">
+                    <span id="connection-status" class="offline" style="cursor: pointer;">🔴 Offline</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+    <main class="main-content">
+        <div class="mobile-content">
+      <section class="section active">
+            <div class="section-content">
+          <div class="welcome-section">
+                <h2>Welcome back, User! 🌟</h2>
+                <p>Ready for another fun day of learning?</p>
+          </div>
+          
+          <div class="dashboard-grid">
+            <!-- Quick Stats -->
+            <div class="stats-card">
+              <h3>📊 Your Progress</h3>
+              <div class="stat-item">
+                    <span class="stat-number">8</span>
+                <span class="stat-label">Lessons Completed</span>
+              </div>
+              <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Activities Due</span>
+              </div>
+              <div class="stat-item">
+                    <span class="stat-number">92%</span>
+                <span class="stat-label">Overall Progress</span>
+              </div>
+            </div>
+
+            <!-- Recent Lessons -->
+            <div class="recent-lessons">
+              <h3>📖 Continue Learning</h3>
+              <div class="lesson-list">
+                <div class="lesson-item">
+                  <div class="lesson-info">
+                        <h4>📝 English</h4>
+                        <p>Reading and Writing Stories</p>
+                    <div class="progress-bar">
+                          <div class="progress-fill" style="width: 75%"></div>
+                    </div>
+                  </div>
+                  <a href="lessons.html" class="btn-continue">Continue</a>
+                </div>
+                <div class="lesson-item">
+                  <div class="lesson-info">
+                        <h4>🔢 Mathematics</h4>
+                        <p>Addition and Subtraction</p>
+                    <div class="progress-bar">
+                          <div class="progress-fill" style="width: 60%"></div>
+                    </div>
+                  </div>
+                  <a href="lessons.html" class="btn-continue">Continue</a>
+                </div>
+                <div class="lesson-item">
+                  <div class="lesson-info">
+                        <h4>🔬 Science</h4>
+                        <p>Plants and Animals</p>
+                    <div class="progress-bar">
+                          <div class="progress-fill" style="width: 45%"></div>
+                    </div>
+                  </div>
+                  <a href="lessons.html" class="btn-continue">Continue</a>
+                </div>
+                <div class="lesson-item">
+                  <div class="lesson-info">
+                        <h4>🌍 Geography</h4>
+                        <p>Our World and Maps</p>
+                    <div class="progress-bar">
+                          <div class="progress-fill" style="width: 30%"></div>
+                    </div>
+                  </div>
+                  <a href="lessons.html" class="btn-continue">Continue</a>
+                </div>
+                <div class="lesson-item">
+                  <div class="lesson-info">
+                        <h4>🎨 Art & Craft</h4>
+                        <p>Creative Drawing</p>
+                    <div class="progress-bar">
+                          <div class="progress-fill" style="width: 20%"></div>
+                    </div>
+                  </div>
+                  <a href="lessons.html" class="btn-continue">Continue</a>
+                </div>
+              </div>
+            </div>
+
+                <!-- Upcoming Activities -->
+            <div class="assignments-preview">
+                  <h3>📝 Upcoming Activities</h3>
+              <div class="assignment-list">
+                <div class="assignment-item urgent">
+                      <h4>Math Quiz</h4>
+                      <p>Due: 2 Days</p>
+                      <span class="due-badge urgent">Fun!</span>
+                </div>
+                <div class="assignment-item">
+                      <h4>Science Project</h4>
+                      <p>Due: 5 Days</p>
+                      <span class="due-badge">Exciting!</span>
+                </div>
+                <div class="assignment-item">
+                      <h4>Story Writing</h4>
+                      <p>Due: 1 Week</p>
+                      <span class="due-badge">Creative!</span>
+                </div>
+                <div class="assignment-item">
+                      <h4>Art Drawing</h4>
+                  <p>Due: 3 Days</p>
+                      <span class="due-badge">Fun!</span>
+                </div>
+                <div class="assignment-item">
+                      <h4>Geography Quiz</h4>
+                      <p>Due: 4 Days</p>
+                      <span class="due-badge">Explore!</span>
+                    </div>
+                  </div>
+                  <div class="view-all-btn">
+                    <a href="assignments.html" class="btn-primary">View All Activities</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fun Game Section -->
+              <div class="game-section">
+                <h3>🎮 Take a Break & Play!</h3>
+                <div class="game-grid">
+                  <div class="game-card">
+                    <div class="game-icon">🧮</div>
+                    <h4>Math Adventure</h4>
+                    <p>Solve fun math puzzles and collect stars!</p>
+                    <button class="btn-game" onclick="startMathGame()">Play Now</button>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-icon">🔤</div>
+                    <h4>Word Builder</h4>
+                    <p>Create words and learn new vocabulary!</p>
+                    <button class="btn-game" onclick="startWordGame()">Play Now</button>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-icon">🎨</div>
+                    <h4>Color Match</h4>
+                    <p>Match colors and learn about art!</p>
+                    <button class="btn-game" onclick="startColorGame()">Play Now</button>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-icon">🌍</div>
+                    <h4>World Explorer</h4>
+                    <p>Learn about countries and cultures!</p>
+                    <button class="btn-game" onclick="startWorldGame()">Play Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Cards -->
+          <div class="quick-actions">
+            <h3>🚀 Quick Actions</h3>
+            <div class="action-grid">
+              <a href="lessons.html" class="action-card">
+                <div class="action-icon">
+                  <span class="icon">📚</span>
+                </div>
+                    <h4>Start Learning</h4>
+                    <p>Explore fun lessons and activities</p>
+              </a>
+              <a href="assignments.html" class="action-card">
+                <div class="action-icon">📝</div>
+                    <h4>Do Activities</h4>
+                    <p>Complete fun assignments and quizzes</p>
+                  </a>
+                  <a href="games.html" class="action-card">
+                    <div class="action-icon">🎮</div>
+                    <h4>Play Games</h4>
+                    <p>Learn while having fun with games</p>
+              </a>
+              <a href="progress.html" class="action-card">
+                    <div class="action-icon">🏆</div>
+                    <h4>View Achievements</h4>
+                    <p>See your progress and earn badges</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </main>
+
+      <!-- Desktop Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>© 2025 RuralEdu Kids • Making learning fun and accessible</p>
+          <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Bottom Navigation -->
+      <nav class="bottom-nav">
+        <ul>
+          <li>
+            <a href="index.html" class="bottom-nav-item active">
+              <div class="bottom-nav-icon">🏠</div>
+              <div class="bottom-nav-label">Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="lessons.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📚</div>
+              <div class="bottom-nav-label">Lessons</div>
+            </a>
+          </li>
+          <li>
+            <a href="assignments.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📝</div>
+              <div class="bottom-nav-label">Activities</div>
+            </a>
+          </li>
+          <li>
+            <a href="games.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">🎮</div>
+              <div class="bottom-nav-label">Games</div>
+            </a>
+          </li>
+          <li>
+            <a href="progress.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📊</div>
+              <div class="bottom-nav-label">Progress</div>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">👤</div>
+              <div class="bottom-nav-label">Profile</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

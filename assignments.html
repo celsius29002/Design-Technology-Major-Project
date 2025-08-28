@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activities - RuralEdu Kids</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#E57373" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="RuralEdu Kids" />
+    <meta name="application-name" content="RuralEdu Kids" />
+    <meta name="description" content="Fun learning platform for primary school children" />
+  </head>
+  <body>
+        <div class="mobile-app-container">
+        <!-- Header Navigation -->
+        <header class="app-header">
+            <div class="header-container">
+                <div class="header-brand">
+                    <h1>🌟 RuralEdu Kids</h1>
+                </div>
+                <div class="offline-indicator">
+                    <span id="connection-status" class="offline" style="cursor: pointer;">🔴 Offline</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+    <main class="main-content">
+        <div class="mobile-content">
+      <section class="section active">
+            <div class="section-content">
+          <div class="page-header">
+                <h2>📝 Fun Activities</h2>
+                <p>Complete fun activities and earn stars!</p>
+              </div>
+
+              <!-- Assignment Tabs -->
+              <div class="assignments-tabs">
+                <button class="tab-btn active" data-tab="pending">
+                  To Do <span class="tab-count">3</span>
+                </button>
+                <button class="tab-btn" data-tab="completed">
+                  Completed <span class="tab-count">6</span>
+                </button>
+                <button class="tab-btn" data-tab="overdue">
+                  Missed <span class="tab-count">0</span>
+                </button>
+                <button class="tab-btn" data-tab="upcoming">
+                  Coming Soon <span class="tab-count">2</span>
+                </button>
+              </div>
+
+              <!-- Pending Assignments -->
+              <div class="assignments-section active" id="pending">
+                <div class="assignments-grid">
+                  <div class="assignment-card urgent">
+                    <div class="assignment-header">
+                      <h3>🧮 Math Quiz</h3>
+                      <span class="due-badge urgent">Due in 2 days</span>
+                  </div>
+                    <p>Practice addition and subtraction with fun math problems!</p>
+                    <div class="assignment-meta">
+                      <span>⭐ 15 Questions</span>
+                      <span>⏱️ 20 minutes</span>
+                      <span>🏆 5 stars</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-primary">Start Quiz</button>
+                      <button class="btn-secondary">View Details</button>
+              </div>
+            </div>
+
+            <div class="assignment-card">
+              <div class="assignment-header">
+                      <h3>🔬 Science Project</h3>
+                      <span class="due-badge">Due in 5 days</span>
+              </div>
+                    <p>Create a simple plant growth experiment and record your observations!</p>
+              <div class="assignment-meta">
+                      <span>🌱 Plant Experiment</span>
+                      <span>⏱️ 1 week</span>
+                      <span>🏆 10 stars</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-primary">Start Project</button>
+                      <button class="btn-secondary">View Details</button>
+              </div>
+            </div>
+
+            <div class="assignment-card">
+              <div class="assignment-header">
+                      <h3>📝 Story Writing</h3>
+                      <span class="due-badge">Due in 1 week</span>
+              </div>
+                    <p>Write a short story about your favorite animal or adventure!</p>
+              <div class="assignment-meta">
+                      <span>📖 Creative Writing</span>
+                      <span>⏱️ 30 minutes</span>
+                      <span>🏆 8 stars</span>
+                    </div>
+                    <div class="assignment-actions">
+                      <button class="btn-primary">Start Writing</button>
+                      <button class="btn-secondary">View Details</button>
+              </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Completed Assignments -->
+              <div class="assignments-section" id="completed">
+                <div class="assignments-grid">
+                  <div class="assignment-card completed">
+              <div class="assignment-header">
+                      <h3>🧮 Math Quiz</h3>
+                      <span class="completion-badge">Completed</span>
+              </div>
+                    <p>Addition and subtraction practice quiz</p>
+              <div class="assignment-meta">
+                      <span>✅ 14/15 Correct</span>
+                      <span>⏱️ 18 minutes</span>
+                      <span>🏆 4 stars earned</span>
+                    </div>
+                    <div class="assignment-actions">
+                      <button class="btn-secondary">Review Answers</button>
+              </div>
+                  </div>
+
+                  <div class="assignment-card completed">
+                    <div class="assignment-header">
+                      <h3>🎨 Art Activity</h3>
+                      <span class="completion-badge">Completed</span>
+                </div>
+                    <p>Draw your favorite animal</p>
+                    <div class="assignment-meta">
+                      <span>🎨 Creative Drawing</span>
+                      <span>⏱️ 25 minutes</span>
+                      <span>🏆 5 stars earned</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary">View Drawing</button>
+              </div>
+                  </div>
+
+                  <div class="assignment-card completed">
+                    <div class="assignment-header">
+                      <h3>🌍 Geography Quiz</h3>
+                      <span class="completion-badge">Completed</span>
+                </div>
+                    <p>Learn about different countries and flags</p>
+                    <div class="assignment-meta">
+                      <span>✅ 12/15 Correct</span>
+                      <span>⏱️ 22 minutes</span>
+                      <span>🏆 4 stars earned</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary">Review Answers</button>
+            </div>
+          </div>
+
+            <div class="assignment-card completed">
+              <div class="assignment-header">
+                      <h3>📝 English Activity</h3>
+                      <span class="completion-badge">Completed</span>
+              </div>
+                    <p>Read a story and answer questions</p>
+              <div class="assignment-meta">
+                      <span>✅ 8/10 Correct</span>
+                      <span>⏱️ 15 minutes</span>
+                      <span>🏆 4 stars earned</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary">Review Answers</button>
+              </div>
+            </div>
+
+            <div class="assignment-card completed">
+              <div class="assignment-header">
+                      <h3>🔬 Science Quiz</h3>
+                      <span class="completion-badge">Completed</span>
+              </div>
+                    <p>Learn about plants and animals</p>
+              <div class="assignment-meta">
+                      <span>✅ 13/15 Correct</span>
+                      <span>⏱️ 20 minutes</span>
+                      <span>🏆 4 stars earned</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary">Review Answers</button>
+              </div>
+            </div>
+
+            <div class="assignment-card completed">
+              <div class="assignment-header">
+                      <h3>🎵 Music Activity</h3>
+                      <span class="completion-badge">Completed</span>
+              </div>
+                    <p>Learn about musical instruments</p>
+              <div class="assignment-meta">
+                      <span>🎵 Music Learning</span>
+                      <span>⏱️ 18 minutes</span>
+                      <span>🏆 3 stars earned</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary">View Activity</button>
+              </div>
+            </div>
+          </div>
+              </div>
+
+              <!-- Overdue Assignments -->
+              <div class="assignments-section" id="overdue">
+                <div class="no-activities">
+                  <div class="no-activities-icon">🎉</div>
+                  <h3>Great Job!</h3>
+                  <p>You haven't missed any activities. Keep up the excellent work!</p>
+            </div>
+          </div>
+
+              <!-- Upcoming Assignments -->
+              <div class="assignments-section" id="upcoming">
+                <div class="assignments-grid">
+            <div class="assignment-card upcoming">
+              <div class="assignment-header">
+                      <h3>🎨 Art Project</h3>
+                      <span class="upcoming-badge">Coming Soon</span>
+              </div>
+                    <p>Create a colorful collage using different materials!</p>
+              <div class="assignment-meta">
+                      <span>🎨 Creative Project</span>
+                      <span>⏱️ 45 minutes</span>
+                      <span>🏆 12 stars</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary" disabled>Available Soon</button>
+              </div>
+            </div>
+
+            <div class="assignment-card upcoming">
+              <div class="assignment-header">
+                      <h3>🌍 Geography Activity</h3>
+                      <span class="upcoming-badge">Coming Soon</span>
+              </div>
+                    <p>Learn about different continents and oceans!</p>
+              <div class="assignment-meta">
+                      <span>🌍 World Geography</span>
+                      <span>⏱️ 30 minutes</span>
+                      <span>🏆 6 stars</span>
+              </div>
+              <div class="assignment-actions">
+                      <button class="btn-secondary" disabled>Available Soon</button>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </main>
+
+      <!-- Desktop Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>© 2025 RuralEdu Kids • Making learning fun and accessible</p>
+          <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Bottom Navigation -->
+      <nav class="bottom-nav">
+        <ul>
+          <li>
+            <a href="index.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">🏠</div>
+              <div class="bottom-nav-label">Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="lessons.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📚</div>
+              <div class="bottom-nav-label">Lessons</div>
+            </a>
+          </li>
+          <li>
+            <a href="assignments.html" class="bottom-nav-item active">
+              <div class="bottom-nav-icon">📝</div>
+              <div class="bottom-nav-label">Activities</div>
+            </a>
+          </li>
+          <li>
+            <a href="games.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">🎮</div>
+              <div class="bottom-nav-label">Games</div>
+            </a>
+          </li>
+          <li>
+            <a href="progress.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📊</div>
+              <div class="bottom-nav-label">Progress</div>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">👤</div>
+              <div class="bottom-nav-label">Profile</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

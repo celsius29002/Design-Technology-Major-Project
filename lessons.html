@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lessons - RuralEdu Kids</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#E57373" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="RuralEdu Kids" />
+    <meta name="application-name" content="RuralEdu Kids" />
+    <meta name="description" content="Fun learning platform for primary school children" />
+  </head>
+  <body>
+        <div class="mobile-app-container">
+        <!-- Header Navigation -->
+        <header class="app-header">
+            <div class="header-container">
+                <div class="header-brand">
+                    <h1>🌟 RuralEdu Kids</h1>
+                </div>
+                <div class="offline-indicator">
+                    <span id="connection-status" class="offline" style="cursor: pointer;">🔴 Offline</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+    <main class="main-content">
+        <div class="mobile-content">
+      <section class="section active">
+            <div class="section-content">
+          <div class="page-header">
+                <h2>📚 Fun Lessons</h2>
+                <p>Choose a subject and start learning!</p>
+          </div>
+
+              <!-- Search and Filter -->
+              <div class="search-filter-container">
+          <div class="search-filter">
+                  <input type="text" placeholder="Search lessons..." class="search-input" />
+                  <select class="filter-select">
+              <option value="">All Subjects</option>
+              <option value="mathematics">Mathematics</option>
+                    <option value="english">English</option>
+              <option value="science">Science</option>
+              <option value="geography">Geography</option>
+                    <option value="art">Art & Craft</option>
+                    <option value="music">Music</option>
+            </select>
+          </div>
+              </div>
+
+              <!-- Lessons Grid -->
+              <div class="lessons-grid">
+                <!-- Mathematics -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">🔢</div>
+                  <div class="lesson-content">
+                    <h3>Mathematics</h3>
+                    <p>Addition and Subtraction</p>
+                    <div class="lesson-meta">
+                      <span>📖 12 Chapters</span>
+                      <span>⏱️ 30 min</span>
+                      <span>👥 45 Students</span>
+                    </div>
+                    <div class="lesson-progress">
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%"></div>
+                      </div>
+                      <span>60% Complete</span>
+                    </div>
+                    <button class="btn-primary">Continue Learning</button>
+                  </div>
+                </div>
+
+                <!-- English -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">📝</div>
+                  <div class="lesson-content">
+                    <h3>English</h3>
+                    <p>Reading and Writing Stories</p>
+                    <div class="lesson-meta">
+                <span>📖 15 Chapters</span>
+                      <span>⏱️ 25 min</span>
+                      <span>👥 52 Students</span>
+                    </div>
+                    <div class="lesson-progress">
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                      </div>
+                      <span>75% Complete</span>
+                    </div>
+                    <button class="btn-primary">Continue Learning</button>
+                  </div>
+                </div>
+
+                <!-- Science -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">🔬</div>
+                  <div class="lesson-content">
+                    <h3>Science</h3>
+                    <p>Plants and Animals</p>
+                    <div class="lesson-meta">
+                      <span>📖 10 Chapters</span>
+                      <span>⏱️ 35 min</span>
+                      <span>👥 38 Students</span>
+              </div>
+              <div class="lesson-progress">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 45%"></div>
+                </div>
+                <span>45% Complete</span>
+              </div>
+              <button class="btn-primary">Continue Learning</button>
+                  </div>
+            </div>
+            
+                <!-- Geography -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">🌍</div>
+                  <div class="lesson-content">
+                    <h3>Geography</h3>
+                    <p>Our World and Maps</p>
+                    <div class="lesson-meta">
+                      <span>📖 8 Chapters</span>
+                      <span>⏱️ 20 min</span>
+                      <span>👥 42 Students</span>
+                    </div>
+                    <div class="lesson-progress">
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 30%"></div>
+                      </div>
+                      <span>30% Complete</span>
+                    </div>
+                    <button class="btn-primary">Continue Learning</button>
+                  </div>
+              </div>
+
+                <!-- Art & Craft -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">🎨</div>
+                  <div class="lesson-content">
+                    <h3>Art & Craft</h3>
+                    <p>Creative Drawing</p>
+                    <div class="lesson-meta">
+                      <span>📖 6 Chapters</span>
+                      <span>⏱️ 40 min</span>
+                      <span>👥 35 Students</span>
+              </div>
+              <div class="lesson-progress">
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 20%"></div>
+                </div>
+                <span>20% Complete</span>
+              </div>
+              <button class="btn-primary">Continue Learning</button>
+            </div>
+            </div>
+            
+                <!-- Music -->
+                <div class="lesson-card">
+                  <div class="lesson-icon">🎵</div>
+                  <div class="lesson-content">
+                    <h3>Music</h3>
+                    <p>Fun Songs and Rhythms</p>
+                    <div class="lesson-meta">
+                      <span>📖 5 Chapters</span>
+                      <span>⏱️ 25 min</span>
+                      <span>👥 28 Students</span>
+              </div>
+              <div class="lesson-progress">
+                <div class="progress-bar">
+                        <div class="progress-fill" style="width: 15%"></div>
+                </div>
+                      <span>15% Complete</span>
+              </div>
+                    <button class="btn-primary">Continue Learning</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recommended Lessons -->
+              <div class="recommended-lessons">
+            <h3>🌟 Recommended for You</h3>
+            <div class="recommendation-grid">
+              <div class="recommendation-card">
+                    <div class="recommendation-icon">🧮</div>
+                    <div class="recommendation-content">
+                      <h4>Math Adventure</h4>
+                      <p>Fun math games and puzzles</p>
+                      <button class="btn-secondary">Start</button>
+                    </div>
+              </div>
+              <div class="recommendation-card">
+                    <div class="recommendation-icon">📚</div>
+                    <div class="recommendation-content">
+                      <h4>Story Time</h4>
+                      <p>Read amazing stories</p>
+                      <button class="btn-secondary">Start</button>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </main>
+
+      <!-- Desktop Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>© 2025 RuralEdu Kids • Making learning fun and accessible</p>
+          <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Bottom Navigation -->
+      <nav class="bottom-nav">
+        <ul>
+          <li>
+            <a href="index.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">🏠</div>
+              <div class="bottom-nav-label">Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="lessons.html" class="bottom-nav-item active">
+              <div class="bottom-nav-icon">📚</div>
+              <div class="bottom-nav-label">Lessons</div>
+            </a>
+          </li>
+          <li>
+            <a href="assignments.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📝</div>
+              <div class="bottom-nav-label">Activities</div>
+            </a>
+          </li>
+          <li>
+            <a href="games.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">🎮</div>
+              <div class="bottom-nav-label">Games</div>
+            </a>
+          </li>
+          <li>
+            <a href="progress.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">📊</div>
+              <div class="bottom-nav-label">Progress</div>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="bottom-nav-item">
+              <div class="bottom-nav-icon">👤</div>
+              <div class="bottom-nav-label">Profile</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
