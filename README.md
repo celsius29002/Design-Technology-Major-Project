@@ -214,7 +214,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 
 ### **Visual Elements**
 - **Color Scheme**: Vibrant, educational colors
-- **Icons**: Emoji-based navigation and categorization
+- **Icons**: Emoji-based navigation and categorisation
 - **Progress Bars**: Visual representation of completion
 - **Animations**: Smooth transitions and interactions
 - **Typography**: Clear, readable fonts for children
@@ -343,5 +343,6 @@ The app features an intuitive bottom navigation with 6 main sections:
 *Last Updated: December 2024*
 *Version: 2.0*
 *Compatibility: All modern devices and browsers*
+
 
 
