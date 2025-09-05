@@ -255,7 +255,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 - **Progressive Difficulty**: Gradually increasing complexity
 - **Multi-Sensory**: Visual, auditory, and kinesthetic learning
 - **Gamification**: Reward-based motivation system
-- **Personalized**: Adaptive learning paths
+- **Personalised**: Adaptive learning paths
 
 ### **Assessment Methods**
 - **Formative Assessment**: Continuous progress monitoring
@@ -343,6 +343,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 *Last Updated: December 2024*
 *Version: 2.0*
 *Compatibility: All modern devices and browsers*
+
 
 
 
