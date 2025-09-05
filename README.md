@@ -206,7 +206,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 ## 🎨 **User Interface Features**
 
 ### **Design Principles**
-- **Mobile-First**: Optimized for mobile devices
+- **Mobile-First**: Optimised for mobile devices
 - **Child-Friendly**: Bright colors and engaging icons
 - **Intuitive Navigation**: Simple and logical user flow
 - **Responsive Design**: Works on all screen sizes
@@ -228,7 +228,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 - **Fast Loading**: Optimised performance
 - **Cross-Platform**: Works on all devices
 
-### **Performance Optimizations**
+### **Performance Optimisations**
 - **Lazy Loading**: Content loads as needed
 - **Caching**: Efficient data storage
 - **Compression**: Optimised file sizes
@@ -306,7 +306,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 
 ### **Technical Support**
 - **Browser Compatibility**: Check supported browsers
-- **Performance Issues**: Optimization recommendations
+- **Performance Issues**: Optimisation recommendations
 - **Bug Reports**: Issue reporting system
 - **Feature Requests**: Enhancement suggestions
 
@@ -343,4 +343,5 @@ The app features an intuitive bottom navigation with 6 main sections:
 *Last Updated: December 2024*
 *Version: 2.0*
 *Compatibility: All modern devices and browsers*
+
 
