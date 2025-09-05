@@ -7,7 +7,7 @@
 RuralEdu Kids is a Progressive Web App (PWA) that provides an engaging, interactive learning experience for primary school students. The platform combines structured lessons, fun games, interactive activities, and progress tracking to create a holistic learning environment.
 
 IMPORTANT NOTE:
-App must NOT be accessed via fullscreen, the app won't be able to function properly, the app can only function if the tab is minimised. As it is an app developed through desktop features. This Information Panel will be presented alongside the design. 
+App must NOT be accessed via fullscreen, the app won't be able to function properly, the app can only function if the tab is minimised. This Information Panel will be presented alongside the design. 
 
 ## ✨ Key Features
 
@@ -343,6 +343,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 *Last Updated: December 2024*
 *Version: 2.0*
 *Compatibility: All modern devices and browsers*
+
 
 
 
