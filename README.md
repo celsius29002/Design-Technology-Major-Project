@@ -1,4 +1,4 @@
-# 🌟 RuralEdu Kids - Interactive Learning Platform
+# 🌟 RuralEdu Kids - Remote Learning App
 
 **A comprehensive, mobile-first educational platform designed specifically for primary school children in rural areas.**
 
@@ -348,6 +348,7 @@ The app features an intuitive bottom navigation with 6 main sections:
 *Last Updated: December 2024*
 *Version: 2.0*
 *Compatibility: All modern devices and browsers*
+
 
 
 
